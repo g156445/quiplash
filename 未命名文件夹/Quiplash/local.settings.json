@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureCosmosDBConnectionString": "https://quiplash-11.documents.azure.com:443/",
+    "Database" : "quiplash",
+    "PlayerContainer" : "player",
+    "PromptContainer" : "prompt",
+    "DeploymentURL" : "https://quiplash-app.azurewebsites.net",
+    "FunctionAppKey" : "UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==",
+    "TranslationEndpoint": "https://api.cognitive.microsofttranslator.com" ,
+    "TranslationKey": "816922a59ab64d78a05288474313f4c1" 
+  }
+}

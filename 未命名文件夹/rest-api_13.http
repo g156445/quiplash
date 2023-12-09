@@ -1,0 +1,92 @@
+POST https://quiplash-app.azurewebsites.net/player/register
+Accept: application/json
+Content-Type: application/json
+x-functions-key: UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==
+
+{"username":"tefffffs","password": "tesdddddddddt1"}
+
+<> 2023-11-04T165240.200.txt
+<> 2023-11-04T165206.200.txt
+<> 2023-11-04T165157.200.txt
+<> 2023-11-04T165146.200.txt
+<> 2023-11-04T165122.200.txt
+<> 2023-11-04T165112.200.txt
+<> 2023-11-04T165026.200.txt
+<> 2023-11-04T164724.200.txt
+<> 2023-11-02T171359.200.txt
+<> 2023-11-02T171345.200.txt
+
+###https://quiplash-app.azurewebsites.net/api/utils/get?code=qVZMqORcQkPKM4JbYi1_gcXCS1noaE2HoDum0wDoQgXxAzFuEzrPOA==
+GET https://quiplash-app.azurewebsites.net/player/login
+Accept: application/json
+Content-Type: application/json
+x-functions-key: UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==
+
+{"username":"test1234","password": "test123456"}
+
+<> 2023-11-04T165429.200.txt
+<> 2023-11-04T165421.200.txt
+<> 2023-11-04T165404.200.txt
+<> 2023-11-02T171452.200.txt
+
+###
+PUT https://quiplash-app.azurewebsites.net/player/update
+Accept: application/json
+Content-Type: application/json
+x-functions-key: UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==
+
+{"username":"test12345","password": "test123456","add_to_games_played": 2,"add_to_score": 1.1}
+
+<> 2023-11-04T165548.200.txt
+<> 2023-11-04T165537.200.txt
+<> 2023-11-04T165529.200.txt
+<> 2023-11-02T171557.200.txt
+
+###
+POST https://quiplash-app.azurewebsites.net/prompt/create
+Accept: application/json
+Content-Type: application/json
+x-functions-key: UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==
+
+{"text":"Unsupported language","username": "test1234"}
+
+<> 2023-11-04T165912.200.txt
+<> 2023-11-02T171608.200.txt
+
+###
+POST https://quiplash-app.azurewebsites.net/prompt/delete
+Accept: application/json
+Content-Type: application/json
+x-functions-key: UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==
+
+{"word":"Unsrted"}
+
+<> 2023-11-04T170733.200.txt
+<> 2023-11-02T171643.200.txt
+
+###
+{"text":"Unsupported language haha","player": "test1234"}
+###
+GET https://quiplash-app.azurewebsites.net/utils/get
+Accept: application/json
+Content-Type: application/json
+x-functions-key: UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==
+
+{"players":["test1234"],"language": "es"}
+
+<> 2023-11-04T170744.200.txt
+<> 2023-11-02T171711.200.txt
+
+###
+GET https://quiplash-app.azurewebsites.net/utils/leaderboard
+Accept: application/json
+Content-Type: application/json
+x-functions-key: UNe_pX6Dl-0yu16httnkvzA2vfcuL3M00_u5WO-_2Uc-AzFufVkGFw==
+
+{"top": 2}
+
+<> 2023-11-04T170757.200.txt
+<> 2023-11-02T171734.200.txt
+<> 2023-11-02T164415.200.txt
+<> 2023-11-02T152005.200.txt
+<> 2023-11-02T151946.200.txt
